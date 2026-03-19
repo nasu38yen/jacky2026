@@ -11,8 +11,10 @@ export default defineNuxtConfig({
     provider: 'vercel'
   },
   routeRules: {
-    '/': { prerender: true },
-    '/charibra/**': { prerender: true }
+    // APIは動的に処理する必要があるためプリレンダリングから除外
+    '/api/**': { prerender: false },
+    // それ以外（Markdownページ含む）はすべてビルド時にHTML化する
+    '/**': { prerender: true }
   },
   
   // Vercelへのデプロイであることを明示的に指定します
