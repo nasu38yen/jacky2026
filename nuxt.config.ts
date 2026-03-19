@@ -14,6 +14,11 @@ export default defineNuxtConfig({
     '/': { prerender: true },
     '/charibra/**': { prerender: true }
   },
+  
+  // Vercelへのデプロイであることを明示的に指定します
+  nitro: {
+    preset: 'vercel'
+  },
 
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
