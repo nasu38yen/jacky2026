@@ -19,7 +19,13 @@ export default defineNuxtConfig({
   
   // Vercelへのデプロイであることを明示的に指定します
   nitro: {
-    preset: 'vercel'
+    preset: 'vercel',
+    prerender: {
+      // /content 配下のルートを自動的にクロールして生成する
+      crawlLinks: true,
+      // もし特定のパスが漏れる場合は直接指定も可能
+      // routes: ['/blog/first-post']
+    }
   },
 
   devtools: { enabled: true },
