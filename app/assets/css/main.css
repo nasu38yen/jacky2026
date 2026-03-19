@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --color-lunar-green-50: #f3f6f4;
+  --color-lunar-green-100: #e1eae2;
+  --color-lunar-green-200: #c5d5c8;
+  --color-lunar-green-300: #9eb7a3;
+  --color-lunar-green-400: #74937c;
+  --color-lunar-green-500: #54755d;
+  --color-lunar-green-600: #3f5c48;
+  --color-lunar-green-700: #324a3a;
+  --color-lunar-green-800: #2a3c30;
+  --color-lunar-green-900: #233128;
+  --color-lunar-green-950: #131b16;
+
+  --color-mine-shaft-50: #f6f5f5;
+  --color-mine-shaft-100: #e8e6e5;
+  --color-mine-shaft-200: #d3d0ce;
+  --color-mine-shaft-300: #b4afac;
+  --color-mine-shaft-400: #8e8782;
+  --color-mine-shaft-500: #736c67;
+  --color-mine-shaft-600: #625c58;
+  --color-mine-shaft-700: #534f4b;
+  --color-mine-shaft-800: #484542;
+  --color-mine-shaft-900: #3f3d3a;
+  --color-mine-shaft-950: #302e2c;
+
+  --text-lg: 19px;
+  --text-lg--line-height: 1.75rem;
+}

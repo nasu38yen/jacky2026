@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-studio-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "validate:content": "node scripts/validate-parents.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@nuxt/content": "^3.10.0",
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "^4.4.0",
+    "better-sqlite3": "^12.6.0",
+    "nuxt": "^4.2.2"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.86"
+  }
+}
