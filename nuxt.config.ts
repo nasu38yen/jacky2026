@@ -23,8 +23,11 @@ export default defineNuxtConfig({
     prerender: {
       // /content 配下のルートを自動的にクロールして生成する
       crawlLinks: true,
-      // もし特定のパスが漏れる場合は直接指定も可能
-      // routes: ['/blog/first-post']
+      // 2. 自動で検知されない場合は、明示的にパスを指定する
+      routes: [
+        '/test',
+        '/docs/concept',
+      ]
     }
   },
 
